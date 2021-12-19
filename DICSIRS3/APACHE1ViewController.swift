@@ -228,14 +228,14 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         ShinbuTaion.isHidden=false
         flagOfUpperButton=1
-        FirstButton.setTitle("    ≧41        (4点)", for: UIControlState())
-        SecondButton.setTitle(" 39-40.9      (3点)", for: UIControlState())
-        ThirdButton.setTitle("38.5-38.9     (1点)", for: UIControlState())
-        FourthButton.setTitle(" 36-38.4      (0点)", for: UIControlState())
-        FifthButton.setTitle(" 34-35.9      (1点)", for: UIControlState())
-        SixthButton.setTitle(" 32-33.9      (2点)", for: UIControlState())
-        SeventhButton.setTitle(" 30-31.9     (3点)", for: UIControlState())
-        EighthButton.setTitle("  ≦29.9       (4点)", for: UIControlState())
+        FirstButton.setTitle("    ≧41        (4点)", for: UIControl.State())
+        SecondButton.setTitle(" 39-40.9      (3点)", for: UIControl.State())
+        ThirdButton.setTitle("38.5-38.9     (1点)", for: UIControl.State())
+        FourthButton.setTitle(" 36-38.4      (0点)", for: UIControl.State())
+        FifthButton.setTitle(" 34-35.9      (1点)", for: UIControl.State())
+        SixthButton.setTitle(" 32-33.9      (2点)", for: UIControl.State())
+        SeventhButton.setTitle(" 30-31.9     (3点)", for: UIControl.State())
+        EighthButton.setTitle("  ≦29.9       (4点)", for: UIControl.State())
     }
     
     @IBAction func HeikinDoumyakuatsuButtonTapped(){
@@ -244,12 +244,12 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         HeikinDoumyakuatsu.isHidden=false
         flagOfUpperButton=2
-        FirstButton.setTitle("   ≧160       (4点)", for: UIControlState())
-        SecondButton.setTitle(" 130-159      (3点)", for: UIControlState())
-        ThirdButton.setTitle("  110-129      (2点)", for: UIControlState())
-        FourthButton.setTitle(" 70-109      (0点)", for: UIControlState())
-        FifthButton.setTitle("   50-69       (2点)", for: UIControlState())
-        SixthButton.setTitle("    ≦49        (4点)", for: UIControlState())
+        FirstButton.setTitle("   ≧160       (4点)", for: UIControl.State())
+        SecondButton.setTitle(" 130-159      (3点)", for: UIControl.State())
+        ThirdButton.setTitle("  110-129      (2点)", for: UIControl.State())
+        FourthButton.setTitle(" 70-109      (0点)", for: UIControl.State())
+        FifthButton.setTitle("   50-69       (2点)", for: UIControl.State())
+        SixthButton.setTitle("    ≦49        (4点)", for: UIControl.State())
         SeventhButton.isHidden=true
         EighthButton.isHidden=true
     }
@@ -260,13 +260,13 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         Shinpakusu.isHidden=false
         flagOfUpperButton=3
-        FirstButton.setTitle("   ≧180       (4点)", for: UIControlState())
-        SecondButton.setTitle(" 140-179      (3点)", for: UIControlState())
-        ThirdButton.setTitle("  110-139      (2点)", for: UIControlState())
-        FourthButton.setTitle(" 70-109      (0点)", for: UIControlState())
-        FifthButton.setTitle("   55-69       (2点)", for: UIControlState())
-        SixthButton.setTitle("   40-54       (3点)", for: UIControlState())
-        SeventhButton.setTitle("    ≦39        (4点)", for: UIControlState())
+        FirstButton.setTitle("   ≧180       (4点)", for: UIControl.State())
+        SecondButton.setTitle(" 140-179      (3点)", for: UIControl.State())
+        ThirdButton.setTitle("  110-139      (2点)", for: UIControl.State())
+        FourthButton.setTitle(" 70-109      (0点)", for: UIControl.State())
+        FifthButton.setTitle("   55-69       (2点)", for: UIControl.State())
+        SixthButton.setTitle("   40-54       (3点)", for: UIControl.State())
+        SeventhButton.setTitle("    ≦39        (4点)", for: UIControl.State())
         EighthButton.isHidden=true
     }
     
@@ -276,13 +276,13 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         Kokyusu.isHidden=false
         flagOfUpperButton=4
-        FirstButton.setTitle("   ≧50        (4点)", for: UIControlState())
-        SecondButton.setTitle("  35-49       (3点)", for: UIControlState())
-        ThirdButton.setTitle("   25-34       (1点)", for: UIControlState())
-        FourthButton.setTitle("  12-24       (0点)", for: UIControlState())
-        FifthButton.setTitle("   10-11       (1点)", for: UIControlState())
-        SixthButton.setTitle("     6-9         (2点)", for: UIControlState())
-        SeventhButton.setTitle("     ≦5         (4点)", for: UIControlState())
+        FirstButton.setTitle("   ≧50        (4点)", for: UIControl.State())
+        SecondButton.setTitle("  35-49       (3点)", for: UIControl.State())
+        ThirdButton.setTitle("   25-34       (1点)", for: UIControl.State())
+        FourthButton.setTitle("  12-24       (0点)", for: UIControl.State())
+        FifthButton.setTitle("   10-11       (1点)", for: UIControl.State())
+        SixthButton.setTitle("     6-9         (2点)", for: UIControl.State())
+        SeventhButton.setTitle("     ≦5         (4点)", for: UIControl.State())
         EighthButton.isHidden=true
     }
     
@@ -293,14 +293,14 @@ class APACHE1ViewController: UIViewController {
         Sansokano.isHidden=false
         flagOfUpperButton=5
         SansokanoLabel.text="FiO2>0.5はA-aDO2, FiO2<0.5はPaO2で評価"
-        FirstButton.setTitle("  A-aDO2     ≧500       (4点)", for: UIControlState())
-        SecondButton.setTitle("  A-aDO2   350-499     (3点)", for: UIControlState())
-        ThirdButton.setTitle("  A-aDO2   200-349     (2点)", for: UIControlState())
-        FourthButton.setTitle("  A-aDO2     <200         (0点)", for: UIControlState())
-        FifthButton.setTitle("   PaO2        >70          (0点)", for: UIControlState())
-        SixthButton.setTitle("   PaO2       61-70       (1点)", for: UIControlState())
-        SeventhButton.setTitle("   PaO2       55-60       (3点)", for: UIControlState())
-        EighthButton.setTitle("   PaO2        <55          (4点)", for: UIControlState())
+        FirstButton.setTitle("  A-aDO2     ≧500       (4点)", for: UIControl.State())
+        SecondButton.setTitle("  A-aDO2   350-499     (3点)", for: UIControl.State())
+        ThirdButton.setTitle("  A-aDO2   200-349     (2点)", for: UIControl.State())
+        FourthButton.setTitle("  A-aDO2     <200         (0点)", for: UIControl.State())
+        FifthButton.setTitle("   PaO2        >70          (0点)", for: UIControl.State())
+        SixthButton.setTitle("   PaO2       61-70       (1点)", for: UIControl.State())
+        SeventhButton.setTitle("   PaO2       55-60       (3点)", for: UIControl.State())
+        EighthButton.setTitle("   PaO2        <55          (4点)", for: UIControl.State())
     }
     
     @IBAction func DoumyakuketsuPHButtonTapped(){
@@ -309,13 +309,13 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         DoumyakuketsuPH.isHidden=false
         flagOfUpperButton=6
-        FirstButton.setTitle(" pH≧7.7/ HCO3≧ 52 (4点)", for: UIControlState())
-        SecondButton.setTitle("p7.6-7.69/H41-51.9    (3点)", for: UIControlState())
-        ThirdButton.setTitle("p7.5-7.59/H32-40.9    (1点)", for: UIControlState())
-        FourthButton.setTitle("p7.33-.49/H22-31.9     (0点)", for: UIControlState())
-        FifthButton.setTitle("p7.25-.32/H18-21.9     (2点)", for: UIControlState())
-        SixthButton.setTitle("p7.15-.24/H15-17.9     (3点)", for: UIControlState())
-        SeventhButton.setTitle("pH<7.15/ HCO3<15    (4点)", for: UIControlState())
+        FirstButton.setTitle(" pH≧7.7/ HCO3≧ 52 (4点)", for: UIControl.State())
+        SecondButton.setTitle("p7.6-7.69/H41-51.9    (3点)", for: UIControl.State())
+        ThirdButton.setTitle("p7.5-7.59/H32-40.9    (1点)", for: UIControl.State())
+        FourthButton.setTitle("p7.33-.49/H22-31.9     (0点)", for: UIControl.State())
+        FifthButton.setTitle("p7.25-.32/H18-21.9     (2点)", for: UIControl.State())
+        SixthButton.setTitle("p7.15-.24/H15-17.9     (3点)", for: UIControl.State())
+        SeventhButton.setTitle("pH<7.15/ HCO3<15    (4点)", for: UIControl.State())
         EighthButton.isHidden=true
     }
     
@@ -325,13 +325,13 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         Natrium.isHidden=false
         flagOfUpperButton=7
-        FirstButton.setTitle("   ≧180       (4点)", for: UIControlState())
-        SecondButton.setTitle(" 160-179      (3点)", for: UIControlState())
-        ThirdButton.setTitle(" 155-159      (2点)", for: UIControlState())
-        FourthButton.setTitle(" 150-154      (1点)", for: UIControlState())
-        FifthButton.setTitle("  130-149      (0点)", for: UIControlState())
-        SixthButton.setTitle("  120-129      (2点)", for: UIControlState())
-        SeventhButton.setTitle("   ≦119       (4点)", for: UIControlState())
+        FirstButton.setTitle("   ≧180       (4点)", for: UIControl.State())
+        SecondButton.setTitle(" 160-179      (3点)", for: UIControl.State())
+        ThirdButton.setTitle(" 155-159      (2点)", for: UIControl.State())
+        FourthButton.setTitle(" 150-154      (1点)", for: UIControl.State())
+        FifthButton.setTitle("  130-149      (0点)", for: UIControl.State())
+        SixthButton.setTitle("  120-129      (2点)", for: UIControl.State())
+        SeventhButton.setTitle("   ≦119       (4点)", for: UIControl.State())
         EighthButton.isHidden=true
     }
     
@@ -341,13 +341,13 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         Karium.isHidden=false
         flagOfUpperButton=8
-        FirstButton.setTitle("     ≧7         (4点)", for: UIControlState())
-        SecondButton.setTitle("  6.0-6.9      (3点)", for: UIControlState())
-        ThirdButton.setTitle("  5.5-5.9      (1点)", for: UIControlState())
-        FourthButton.setTitle("  3.5-5.4      (0点)", for: UIControlState())
-        FifthButton.setTitle("    3-3.4       (1点)", for: UIControlState())
-        SixthButton.setTitle("  2.5-2.9      (2点)", for: UIControlState())
-        SeventhButton.setTitle("    <2.5         (4点)", for: UIControlState())
+        FirstButton.setTitle("     ≧7         (4点)", for: UIControl.State())
+        SecondButton.setTitle("  6.0-6.9      (3点)", for: UIControl.State())
+        ThirdButton.setTitle("  5.5-5.9      (1点)", for: UIControl.State())
+        FourthButton.setTitle("  3.5-5.4      (0点)", for: UIControl.State())
+        FifthButton.setTitle("    3-3.4       (1点)", for: UIControl.State())
+        SixthButton.setTitle("  2.5-2.9      (2点)", for: UIControl.State())
+        SeventhButton.setTitle("    <2.5         (4点)", for: UIControl.State())
         EighthButton.isHidden=true
     }
     
@@ -360,29 +360,29 @@ class APACHE1ViewController: UIViewController {
         Kyuseijinfuzen.isHidden=false
         switch Kyuseijinfuzen.selectedSegmentIndex{
         case 0:
-            FirstButton.setTitle("   ≧3.5        (4点)", for: UIControlState())
-            SecondButton.setTitle("  2.0-3.4      (3点)", for: UIControlState())
-            ThirdButton.setTitle("  1.5-1.9      (2点)", for: UIControlState())
-            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControlState())
-            FifthButton.setTitle("    <0.6         (2点)", for: UIControlState())
+            FirstButton.setTitle("   ≧3.5        (4点)", for: UIControl.State())
+            SecondButton.setTitle("  2.0-3.4      (3点)", for: UIControl.State())
+            ThirdButton.setTitle("  1.5-1.9      (2点)", for: UIControl.State())
+            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControl.State())
+            FifthButton.setTitle("    <0.6         (2点)", for: UIControl.State())
             SixthButton.isHidden=true
             SeventhButton.isHidden=true
             EighthButton.isHidden=true
         case 1:
-            FirstButton.setTitle("   ≧3.5        (8点)", for: UIControlState())
-            SecondButton.setTitle("  2.0-3.4      (6点)", for: UIControlState())
-            ThirdButton.setTitle("  1.5-1.9      (4点)", for: UIControlState())
-            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControlState())
-            FifthButton.setTitle("    <0.6         (4点)", for: UIControlState())
+            FirstButton.setTitle("   ≧3.5        (8点)", for: UIControl.State())
+            SecondButton.setTitle("  2.0-3.4      (6点)", for: UIControl.State())
+            ThirdButton.setTitle("  1.5-1.9      (4点)", for: UIControl.State())
+            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControl.State())
+            FifthButton.setTitle("    <0.6         (4点)", for: UIControl.State())
             SixthButton.isHidden=true
             SeventhButton.isHidden=true
             EighthButton.isHidden=true
         default:
-            FirstButton.setTitle("   ≧3.5        (4点)", for: UIControlState())
-            SecondButton.setTitle("  2.0-3.4      (3点)", for: UIControlState())
-            ThirdButton.setTitle("  1.5-1.9      (2点)", for: UIControlState())
-            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControlState())
-            FifthButton.setTitle("    <0.6         (2点)", for: UIControlState())
+            FirstButton.setTitle("   ≧3.5        (4点)", for: UIControl.State())
+            SecondButton.setTitle("  2.0-3.4      (3点)", for: UIControl.State())
+            ThirdButton.setTitle("  1.5-1.9      (2点)", for: UIControl.State())
+            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControl.State())
+            FifthButton.setTitle("    <0.6         (2点)", for: UIControl.State())
             SixthButton.isHidden=true
             SeventhButton.isHidden=true
             EighthButton.isHidden=true
@@ -392,29 +392,29 @@ class APACHE1ViewController: UIViewController {
     @IBAction func KyuseijinfuzenValueChanged(){
         switch Kyuseijinfuzen.selectedSegmentIndex{
         case 0:
-            FirstButton.setTitle("   ≧3.5        (4点)", for: UIControlState())
-            SecondButton.setTitle("  2.0-3.4      (3点)", for: UIControlState())
-            ThirdButton.setTitle("  1.5-1.9      (2点)", for: UIControlState())
-            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControlState())
-            FifthButton.setTitle("    <0.6         (2点)", for: UIControlState())
+            FirstButton.setTitle("   ≧3.5        (4点)", for: UIControl.State())
+            SecondButton.setTitle("  2.0-3.4      (3点)", for: UIControl.State())
+            ThirdButton.setTitle("  1.5-1.9      (2点)", for: UIControl.State())
+            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControl.State())
+            FifthButton.setTitle("    <0.6         (2点)", for: UIControl.State())
             SixthButton.isHidden=true
             SeventhButton.isHidden=true
             EighthButton.isHidden=true
         case 1:
-            FirstButton.setTitle("   ≧3.5        (8点)", for: UIControlState())
-            SecondButton.setTitle("  2.0-3.4      (6点)", for: UIControlState())
-            ThirdButton.setTitle("  1.5-1.9      (4点)", for: UIControlState())
-            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControlState())
-            FifthButton.setTitle("    <0.6         (4点)", for: UIControlState())
+            FirstButton.setTitle("   ≧3.5        (8点)", for: UIControl.State())
+            SecondButton.setTitle("  2.0-3.4      (6点)", for: UIControl.State())
+            ThirdButton.setTitle("  1.5-1.9      (4点)", for: UIControl.State())
+            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControl.State())
+            FifthButton.setTitle("    <0.6         (4点)", for: UIControl.State())
             SixthButton.isHidden=true
             SeventhButton.isHidden=true
             EighthButton.isHidden=true
         default:
-            FirstButton.setTitle("   ≧3.5        (4点)", for: UIControlState())
-            SecondButton.setTitle("  2.0-3.4      (3点)", for: UIControlState())
-            ThirdButton.setTitle("  1.5-1.9      (2点)", for: UIControlState())
-            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControlState())
-            FifthButton.setTitle("    <0.6         (2点)", for: UIControlState())
+            FirstButton.setTitle("   ≧3.5        (4点)", for: UIControl.State())
+            SecondButton.setTitle("  2.0-3.4      (3点)", for: UIControl.State())
+            ThirdButton.setTitle("  1.5-1.9      (2点)", for: UIControl.State())
+            FourthButton.setTitle("  0.6-1.4      (0点)", for: UIControl.State())
+            FifthButton.setTitle("    <0.6         (2点)", for: UIControl.State())
             SixthButton.isHidden=true
             SeventhButton.isHidden=true
             EighthButton.isHidden=true
@@ -427,12 +427,12 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         Hct.isHidden=false
         flagOfUpperButton=10
-        FirstButton.setTitle("    ≧60         (4点)", for: UIControlState())
-        SecondButton.setTitle("  50-59.9     (2点)", for: UIControlState())
-        ThirdButton.setTitle("  46-49.9     (1点)", for: UIControlState())
-        FourthButton.setTitle("  30-45.9     (0点)", for: UIControlState())
-        FifthButton.setTitle("  20-29.9     (2点)", for: UIControlState())
-        SixthButton.setTitle("    <20          (4点)", for: UIControlState())
+        FirstButton.setTitle("    ≧60         (4点)", for: UIControl.State())
+        SecondButton.setTitle("  50-59.9     (2点)", for: UIControl.State())
+        ThirdButton.setTitle("  46-49.9     (1点)", for: UIControl.State())
+        FourthButton.setTitle("  30-45.9     (0点)", for: UIControl.State())
+        FifthButton.setTitle("  20-29.9     (2点)", for: UIControl.State())
+        SixthButton.setTitle("    <20          (4点)", for: UIControl.State())
         SeventhButton.isHidden=true
         EighthButton.isHidden=true
     }
@@ -443,12 +443,12 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         WBC.isHidden=false
         flagOfUpperButton=11
-        FirstButton.setTitle("≧40,000     (4点)", for: UIControlState())
-        SecondButton.setTitle(" 20,000 -   39,900       (2点)", for: UIControlState())
-        ThirdButton.setTitle(" 15,000 -   19,900       (1点)", for: UIControlState())
-        FourthButton.setTitle("  3,000 -   14,900       (0点)", for: UIControlState())
-        FifthButton.setTitle("  1,000 -     2,900        (2点)", for: UIControlState())
-        SixthButton.setTitle("  <1,000       (4点)", for: UIControlState())
+        FirstButton.setTitle("≧40,000     (4点)", for: UIControl.State())
+        SecondButton.setTitle(" 20,000 -   39,900       (2点)", for: UIControl.State())
+        ThirdButton.setTitle(" 15,000 -   19,900       (1点)", for: UIControl.State())
+        FourthButton.setTitle("  3,000 -   14,900       (0点)", for: UIControl.State())
+        FifthButton.setTitle("  1,000 -     2,900        (2点)", for: UIControl.State())
+        SixthButton.setTitle("  <1,000       (4点)", for: UIControl.State())
         SeventhButton.isHidden=true
         EighthButton.isHidden=true
     }
@@ -474,11 +474,11 @@ class APACHE1ViewController: UIViewController {
         self.HideLabels()
         Nenrei.isHidden=false
         flagOfUpperButton=13
-        FirstButton.setTitle("   ≦44歳       (0点)", for: UIControlState())
-        SecondButton.setTitle("  45-54歳      (1点)", for: UIControlState())
-        ThirdButton.setTitle("  55-64歳     (3点)", for: UIControlState())
-        FourthButton.setTitle("  65-74歳     (5点)", for: UIControlState())
-        FifthButton.setTitle("  ≧75歳       (6点)", for: UIControlState())
+        FirstButton.setTitle("   ≦44歳       (0点)", for: UIControl.State())
+        SecondButton.setTitle("  45-54歳      (1点)", for: UIControl.State())
+        ThirdButton.setTitle("  55-64歳     (3点)", for: UIControl.State())
+        FourthButton.setTitle("  65-74歳     (5点)", for: UIControl.State())
+        FifthButton.setTitle("  ≧75歳       (6点)", for: UIControl.State())
         SixthButton.isHidden=true
         SeventhButton.isHidden=true
         EighthButton.isHidden=true
@@ -491,9 +491,9 @@ class APACHE1ViewController: UIViewController {
         Manseibyoutai.isHidden=false
         SansokanoLabel.text="慢性病態:入院前からある臓器不全や免疫不全"
         flagOfUpperButton=14
-        FirstButton.setTitle("   慢性病　態なし       (0点)", for: UIControlState())
-        SecondButton.setTitle("既往+待機手術後         (2点)", for: UIControlState())
-        ThirdButton.setTitle("重篤な臓器/免疫不全 (5点)", for: UIControlState())
+        FirstButton.setTitle("   慢性病　態なし       (0点)", for: UIControl.State())
+        SecondButton.setTitle("既往+待機手術後         (2点)", for: UIControl.State())
+        ThirdButton.setTitle("重篤な臓器/免疫不全 (5点)", for: UIControl.State())
         FourthButton.isHidden=true
         FifthButton.isHidden=true
         SixthButton.isHidden=true
